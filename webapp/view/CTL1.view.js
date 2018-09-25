@@ -150,7 +150,7 @@ sap.ui.jsview("ClinicalTrials.ClinicalTrials.view.CTL1", {
 
             var position = '';
 
-            var oModel = new sap.ui.model.json.JSONModel();
+            oModel = new sap.ui.model.json.JSONModel();
             $.ajax({
                 type: 'GET',
                 async: true,
